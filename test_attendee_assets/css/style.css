@@ -311,7 +311,10 @@ p{font-size:18px;}
 #img_hero{ background: url('../img/vidbb.jpg') 0 / cover no-repeat; height:400px;   }
 .hero_cta a{color:#fff; }
 a:hover{text-decoration:none;}
-body{background:#000; color:#000;}
+
+#content7 .lt a, #content5 a{ color:#009483; }
+#content7 .lt a:hover, #content5 a:hover{ color:#00695d; }
+body{background:#000; color:#000; }
 #content3, #content5, #content7{background:#fff;}
 
 .hero_cta .reserve:hover,
@@ -431,7 +434,7 @@ video{
 #content4 h3{text-align:center;font-weight:900;font-size:20px; color:#159382;margin-bottom:20px}
 #content5 .row{margin:0;}
 #catl{ width:40%; float:left }
-#catl span{border-radius:4px;color:#000; font-size:18px; padding:4px 10px;margin:1px 0;font-weight:700; display:inline-block; }
+#catl span{ cursor: pointer; border-radius:4px;color:#000; font-size:18px; padding:4px 10px;margin:1px 0;font-weight:700; display:inline-block; }
 #catl p{ float:left; width:100%; margin:0 }
 
 #catr{ float:right; width:400px; height:216px; background: #fff; border-radius: 8px; }
