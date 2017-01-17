@@ -130,7 +130,6 @@ p{font-size:18px;}
 		.container > .navbar-collapse {
 	    	width: calc(100% + 30px);
 	    	float:none;
-			margin:;
 		}
 
 
@@ -327,8 +326,8 @@ body{background:#000; color:#000;}
 #vid_hero{text-transform: uppercase;background: rgba(61,167,251,.5); color:#fff; overflow: hidden; width:100%;}
 #vid_hero h2{font-size:32px;margin-top:15px; font-weight:900; margin-bottom: 10px;}
 #vid_hero h2 span{line-height:1.1em}
-#vid_hero h3{font-size:; font-weight:700;}
-#vid_hero h3 span{font-size:; font-weight:400;}
+#vid_hero h3{font-weight:700;}
+#vid_hero h3 span{font-weight:400;}
 #vid_hero span{display:block}
 #vid_hero .txt{padding-left:0;padding-top: 10px;}
 .hero_cta a{display:block; margin:10px 0; padding:10px 0;border-radius:5px;text-align:center; font-size:18px;width:330px}
@@ -437,7 +436,7 @@ video{
 
 #catr{ float:right; width:400px; height:216px; background: #fff; border-radius: 8px; }
 #catr > div{ position:absolute; width:400px; height:216px; border-radius:8px; padding:20px; display:block; visibility: hidden; opacity: 0; transition: visibility 0.1s, opacity 0.1s linear; }
-#catr > div img{ width:100px; float:left;margin:20px 0}
+#catr > div img{ width:80px; float:left;margin:20px 0}
 #catr > div > div{ float:left; margin:20px 0; }
 #catr ul{ margin:0 }
 #catr li{ text-transform:uppercase; font-size:12px }
@@ -558,6 +557,7 @@ footer .dis{text-transform: uppercase; font-size: 12px; margin-bottom:20px;}
 
 	#catl { width: 53%; }
 	#catl p { width: 50%; }
+	#catr > div img{ width:90px; }
 
 }
 
