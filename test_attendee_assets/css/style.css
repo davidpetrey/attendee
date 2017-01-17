@@ -428,15 +428,15 @@ video{
 #content3 div span{display:block; font-size:18px; font-weight:400; margin:0 auto}
 
 #content4{ padding:0 0 20px 0; background:#d5eef1;}
-
+#content4 .row{ margin-left:0 ; margin-right:0 ; }
 #content4 h3{text-align:center;font-weight:900;font-size:20px; color:#159382;margin-bottom:20px}
 #content5 .row{margin:0;}
 #catl{ width:40%; float:left }
 #catl span{border-radius:4px;color:#000; font-size:18px; padding:4px 10px;margin:1px 0;font-weight:700; display:inline-block; }
 #catl p{ float:left; width:100%; margin:0 }
 
-#catr{ float:right; width:380px; height:216px; background: #fff; border-radius: 8px; }
-#catr > div{ position:absolute; width:380px; height:216px; border-radius:8px; padding:20px; display:block; visibility: hidden; opacity: 0; transition: visibility 0.1s, opacity 0.1s linear; }
+#catr{ float:right; width:400px; height:216px; background: #fff; border-radius: 8px; }
+#catr > div{ position:absolute; width:400px; height:216px; border-radius:8px; padding:20px; display:block; visibility: hidden; opacity: 0; transition: visibility 0.1s, opacity 0.1s linear; }
 #catr > div img{ width:100px; float:left;margin:20px 0}
 #catr > div > div{ float:left; margin:20px 0; }
 #catr ul{ margin:0 }
@@ -527,7 +527,7 @@ video{
 #content7 .rt a{display:block; background:#f15452; color:#fff; padding:10px; border-radius:4px; 
 	text-align:center; font-size:18px; text-transform: uppercase;}
 #content7 .rt li{ font-size:12px }
-#content7 .rt li span{ font-size:16px }
+#content7 .rt li span{ font-size:16px; vertical-align: middle; }
 
 
 footer{ background:#eee; padding:20px 0; font-size:16px; }
@@ -932,6 +932,10 @@ footer .dis{text-transform: uppercase; font-size: 12px; margin-bottom:20px;}
 	#catr ul{padding:0 0 0 30px}
 	#catr > div img { width: 90px; }
 	#catr li span { line-height: 16px; }
+
+	#catr { width: 390px; }
+	#catr > div { width: 390px; }
+
 
 	#content6 div{ margin-left: -20%; margin-right: -20%; }
 
